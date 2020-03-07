@@ -112,5 +112,5 @@ _dist-collect-artifacts:
 .PHONY: dev
 dev: export NODE_ENV := development
 dev:
-	webpack
+	webpack --no-sandbox
 	$(electron)
